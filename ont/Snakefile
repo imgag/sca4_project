@@ -1,0 +1,51 @@
+samples = [
+    "21073LRa021",
+    "21073LRa022",
+    "21073LRa023",
+    "21073LRa024",
+    "21073LRa025",
+    "21073LRa026",
+    "21073LRa027",
+    "21073LRa028",
+]
+
+tech = ["dipdiff", "cutesv", "sniffles"]
+
+rule all:
+    input:
+        expand("merged_variants/merged_sv.{tech}.vcf", tech = tech)
+
+rule unzip_survivor_input:
+    input:
+        vcf = "Sample_{sample}/{sample}.sv_{tech}.vcf.gz"
+    output:
+        vcf = "merged_variants/Sample_{sample}/{sample}.sv_{tech}.vcf"
+    shell:
+        """
+        gunzip -c {input} > {output}
+        """
+
+rule merge_sv_survivor:
+    input:
+        vcf = expand("merged_variants/Sample_{sample}/{sample}.sv_{{tech}}.vcf", sample = samples)
+    output:
+        vcf = "merged_variants/merged_sv.{tech}.vcf"
+    conda:
+        "../rules/env/survivor.yml"
+    log:
+        "logs/merge_sv_{tech}_survivor.log"
+    # SURVIVOR options
+    params:
+        d = 1000,   # maximum allowed distance between SVs
+        c = 1,      # minimum number of supporting callers
+        t = 1,      # variants need to agree on type (=1),
+        s = 1,      # variants need to agree on strand (=1),
+        x = 0,      # disabled parameter
+        l = 50,     # minimum length of variants
+    shell:
+        """
+        SURVIVOR merge \
+        <(echo {input.vcf} | tr -s '[:blank:]' '\n') \
+        {params.d} {params.c} {params.t} {params.s} {params.x} {params.l} \
+        {output.vcf}  2> {log}
+        """

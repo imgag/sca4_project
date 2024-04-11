@@ -1,0 +1,9 @@
+name: genomescope
+channels:
+        - conda-forge
+        - bioconda
+        - defaults
+dependencies:
+        - genomescope2==2.0
+        - jellyfish
+        - r-base

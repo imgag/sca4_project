@@ -1,0 +1,25 @@
+title: SCA4 family project
+report_comment: "QC Pacbio Hifi Analysis"
+report_header_info:
+  - Project: SCA4_2022
+  - Species: Human
+  - Sequencing Platform: Pacbio Sequel II
+  - Contact: Caspar Gross
+  - E-Mail: caspar.gross@med.uni-tuebingen.de
+
+run_modules:
+  - quast
+  - qualimap
+  - whatshap
+
+force: true
+skip_generalstats: false
+
+show_analysis_paths: False
+show_analysis_time: True
+
+extra_fn_clean_trim:
+  - '.GRCh38'
+  - '.asm_hifi.bp.p_ctg'
+  - 'qualimap_'
+

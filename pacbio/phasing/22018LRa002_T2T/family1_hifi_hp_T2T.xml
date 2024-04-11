@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="chm13v1.1" locus="16:79092477-79208590" nextAutoscaleGroup="2" version="8">
+    <Resources>
+        <Resource path="..\..\variant_calling\22018LRa002_T2T_dipdiff\hapdiff_mat.bam" type="bam"/>
+        <Resource path="..\..\variant_calling\22018LRa002_T2T_dipdiff\hapdiff_pat.bam" type="bam"/>
+        <Resource path="..\..\variant_calling\22018LRa001_T2T_dipdiff\hapdiff_pat.bam" type="bam"/>
+        <Resource path="..\..\variant_calling\22018LRa004_T2T_dipdiff\hapdiff_mat.bam" type="bam"/>
+        <Resource path="..\..\variant_calling\22018LRa004_T2T_dipdiff\hapdiff_pat.bam" type="bam"/>
+        <Resource path="..\..\variant_calling\22018LRa001_T2T_dipdiff\hapdiff_mat.bam" type="bam"/>
+        <Resource path="..\..\..\annotations\region_of_interest.T2T.bed" type="bed"/>
+        <Resource path="..\..\merged_variants\all_sv_assembly.T2T.vcf" type="vcf"/>
+        <Resource path="..\..\variant_calling\22018LRa003_T2T_dipdiff\hapdiff_pat.bam" type="bam"/>
+        <Resource path="..\..\variant_calling\22018LRa003_T2T_dipdiff\hapdiff_mat.bam" type="bam"/>
+        <Resource path="22018LRa002_T2T.phaseblocks.gtf" type="gtf"/>
+    </Resources>
+    <Panel height="631" name="DataPanel" width="1901">
+        <Track attributeKey="hapdiff_mat.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa001_T2T_dipdiff\hapdiff_mat.bam_junctions" maxdepth="50" name="hapdiff_mat.bam Junctions" visible="false"/>
+        <Track attributeKey="region_of_interest.T2T.bed" clazz="org.broad.igv.track.FeatureTrack" displayMode="SQUISHED" fontSize="10" groupByStrand="false" id="S:\projects\research\SCA4_2022\annotations\region_of_interest.T2T.bed" name="region_of_interest.T2T.bed" visible="true"/>
+        <Track attributeKey="hapdiff_mat.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="204,204,255" experimentType="THIRD_GEN" fontSize="10" height="40" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa001_T2T_dipdiff\hapdiff_mat.bam" name="Father (affected) HP1" visible="true">
+            <RenderOptions/>
+        </Track>
+        <Track attributeKey="hapdiff_pat.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa001_T2T_dipdiff\hapdiff_pat.bam_junctions" maxdepth="50" name="hapdiff_pat.bam Junctions" visible="false"/>
+        <Track attributeKey="hapdiff_pat.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="204,204,255" experimentType="THIRD_GEN" fontSize="10" height="40" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa001_T2T_dipdiff\hapdiff_pat.bam" name="Father (affected) HP2" visible="true">
+            <RenderOptions/>
+        </Track>
+        <Track attributeKey="hapdiff_mat.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa002_T2T_dipdiff\hapdiff_mat.bam_junctions" maxdepth="50" name="hapdiff_mat.bam Junctions" visible="false"/>
+        <Track attributeKey="hapdiff_mat.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="153,255,153" experimentType="THIRD_GEN" fontSize="10" height="74" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa002_T2T_dipdiff\hapdiff_mat.bam" name="Mother (unaffected) HP1" visible="true">
+            <RenderOptions/>
+        </Track>
+        <Track attributeKey="hapdiff_pat.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa002_T2T_dipdiff\hapdiff_pat.bam_junctions" maxdepth="50" name="hapdiff_pat.bam Junctions" visible="false"/>
+        <Track attributeKey="hapdiff_pat.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="153,255,153" experimentType="THIRD_GEN" fontSize="10" height="74" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa002_T2T_dipdiff\hapdiff_pat.bam" name="Mother (unaffected) HP2" visible="true">
+            <RenderOptions/>
+        </Track>
+        <Track attributeKey="hapdiff_mat.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa003_T2T_dipdiff\hapdiff_mat.bam_junctions" maxdepth="50" name="hapdiff_mat.bam Junctions" visible="false"/>
+        <Track attributeKey="hapdiff_mat.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="204,255,204" experimentType="THIRD_GEN" fontSize="10" height="74" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa003_T2T_dipdiff\hapdiff_mat.bam" name="Daughter 1 (Unaffected) HP1" visible="true">
+            <RenderOptions/>
+        </Track>
+        <Track attributeKey="hapdiff_pat.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa003_T2T_dipdiff\hapdiff_pat.bam_junctions" maxdepth="50" name="hapdiff_pat.bam Junctions" visible="false"/>
+        <Track attributeKey="hapdiff_pat.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="204,255,204" experimentType="THIRD_GEN" fontSize="10" height="74" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa003_T2T_dipdiff\hapdiff_pat.bam" name="Daughter 1 (Unaffected) HP2" visible="true">
+            <RenderOptions/>
+        </Track>
+        <Track attributeKey="hapdiff_mat.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa004_T2T_dipdiff\hapdiff_mat.bam_junctions" maxdepth="50" name="hapdiff_mat.bam Junctions" visible="false"/>
+        <Track attributeKey="hapdiff_mat.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="153,204,255" experimentType="THIRD_GEN" fontSize="10" height="74" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa004_T2T_dipdiff\hapdiff_mat.bam" name="Daughter 2 (Affected) HP1" visible="true">
+            <RenderOptions/>
+        </Track>
+        <Track attributeKey="hapdiff_pat.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa004_T2T_dipdiff\hapdiff_pat.bam_junctions" maxdepth="50" name="hapdiff_pat.bam Junctions" visible="false"/>
+        <Track attributeKey="hapdiff_pat.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="153,204,255" experimentType="THIRD_GEN" fontSize="10" height="74" id="S:\projects\research\SCA4_2022\pacbio\variant_calling\22018LRa004_T2T_dipdiff\hapdiff_pat.bam" name="Daughter 2 (Affected) HP2" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="3055" name="FeaturePanel" width="1901">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Annotations" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;51.187347412109375;255,255,255;0,0,178" displayMode="EXPANDED" fontSize="10" groupByStrand="false" id="https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/CHM13.combined.v4.bb" name="Annotations" visible="true"/>
+        <Track attributeKey="all_sv_assembly.T2T.vcf" clazz="org.broad.igv.variant.VariantTrack" displayMode="EXPANDED" fontSize="10" groupByStrand="false" id="S:\projects\research\SCA4_2022\pacbio\merged_variants\all_sv_assembly.T2T.vcf" name="all_sv_assembly.T2T.vcf" siteColorMode="ALLELE_FREQUENCY" visible="true"/>
+        <Track attributeKey="22018LRa002_T2T.phaseblocks.gtf" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="S:\projects\research\SCA4_2022\pacbio\phasing\22018LRa002_T2T\22018LRa002_T2T.phaseblocks.gtf" name="22018LRa002_T2T.phaseblocks.gtf" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.7873134328358209"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

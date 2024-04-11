@@ -1,0 +1,14 @@
+GenomeScope version 2.0
+input file = pacbio/genomescope/22018LRa004/reads.histo
+output directory = pacbio/genomescope/22018LRa004
+p = 2
+k = 21
+
+property                      min               max               
+Homozygous (aa)               99.8095%          99.8304%          
+Heterozygous (ab)             0.169589%         0.190535%         
+Genome Haploid Length         2,670,084,515 bp  2,672,642,416 bp  
+Genome Repeat Length          532,535,757 bp    533,045,918 bp    
+Genome Unique Length          2,137,548,759 bp  2,139,596,498 bp  
+Model Fit                     82.7512%          98.3095%          
+Read Error Rate               0.154468%         0.154468%         

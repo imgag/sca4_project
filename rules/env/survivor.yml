@@ -1,0 +1,7 @@
+name: survivor
+channels:
+        - conda-forge
+        - bioconda
+        - defaults
+dependencies:
+        - survivor==1.0.7

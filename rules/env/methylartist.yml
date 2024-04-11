@@ -1,0 +1,6 @@
+name: methylartist
+channels:
+        - conda-forge
+        - bioconda
+dependencies:
+        - methylartist=1.2.3

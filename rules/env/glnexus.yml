@@ -1,0 +1,8 @@
+name: glnexus
+channels:
+        - conda-forge
+        - bioconda
+        - defaults
+dependencies:
+        - glnexus==1.4.1
+        - bcftools

@@ -1,0 +1,43 @@
+steps:
+    - mapping
+      #- qc
+      #    - qc_db
+      # - assembly
+      # - structural_variant_calling
+      # - variant_calling
+    - repeat_expansion
+      #    - cnv
+      #    - modbases
+
+skip_name_check: true
+
+max_threads: 16
+
+repeat_expansions:
+  methods:
+    - straglr
+
+vc:
+  pepper: true
+  clair3: false
+  phased_output: false
+  haplotagged_bam: false
+
+sv:
+  dipdiff: true
+
+use_gpu: false
+
+verbose: true
+
+cnvkit:
+    reference: ""
+    reference_samples:
+        21073LRa022: '/mnt/storage1/projects/research/SCA4_2022/ont/Sample_21073LRa022/21073LRa022.bam'
+        21073LRa023: '/mnt/storage1/projects/research/SCA4_2022/ont/Sample_21073LRa022/21073LRa022.bam'
+        21073LRa080: '/mnt/storage1/projects/research/21073N_SEQ418081722_mitopathy/Sample_21073LRa080/21073LRa080.bam'
+        21073LRa086: '/mnt/storage1/projects/research/21073N_SEQ418081722_mitopathy/Sample_21073LRa086/21073LRa086.bam'
+        21073LRa076: '/mnt/storage1/projects/research/21073N_SEQ418081722_mitopathy/Sample_21073LRa076/21073LRa076.bam'
+    binsize: 15000
+    scatter:
+        region: "chr16_62000000_74000000"

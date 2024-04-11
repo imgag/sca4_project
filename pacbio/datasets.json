@@ -1,0 +1,358 @@
+{
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02256/datastore.json": {
+        "createdAt": "2022-09-22T18:55:04.379+02:00",
+        "files": [
+            {
+                "createdAt": "2022-09-22T17:23:01.648+02:00",
+                "description": "Description",
+                "fileSize": 37509389275,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-22T17:23:01.648+02:00",
+                "name": "22018LRa002_HiFipol2.2_90pM-Cell3 (CCS)",
+                "path": "9404cdaa-24f5-44f9-a85c-3f24d4cd7623/final.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "9404cdaa-24f5-44f9-a85c-3f24d4cd7623"
+            },
+            {
+                "createdAt": "2022-09-22T18:55:04.360+02:00",
+                "description": "Description",
+                "fileSize": 48875622901,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-22T18:55:04.360+02:00",
+                "name": "22018LRa003_HiFipol2.2_90pM -Cell4 (CCS)",
+                "path": "7e70a9db-cd5a-4c20-b7fe-5a9da48c0896/final.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "7e70a9db-cd5a-4c20-b7fe-5a9da48c0896"
+            }
+        ],
+        "updatedAt": "2022-09-22T18:55:04.379+02:00",
+        "version": "0.2.0"
+    },
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02302/datastore.json": {
+        "createdAt": "2022-09-14T21:20:10.301+02:00",
+        "files": [
+            {
+                "createdAt": "2022-09-14T19:51:38.533+02:00",
+                "description": "Description",
+                "fileSize": 51372682898,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-14T19:51:38.533+02:00",
+                "name": "22018LRa005_Lib1_90pM-Cell1 (CCS)",
+                "path": "2664dbb8-73b0-4269-a49c-1da8f865eb16/final.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "2664dbb8-73b0-4269-a49c-1da8f865eb16"
+            },
+            {
+                "createdAt": "2022-09-14T20:10:54.997+02:00",
+                "description": "Description",
+                "fileSize": 18345769660,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-14T20:10:54.997+02:00",
+                "name": "22018LRa006_Lib1_90pM-Cell2 (CCS)",
+                "path": "42e550e0-4bc3-4646-84bd-bad1f2df0087/final.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "42e550e0-4bc3-4646-84bd-bad1f2df0087"
+            },
+            {
+                "createdAt": "2022-09-14T20:45:35.482+02:00",
+                "description": "Description",
+                "fileSize": 43905839853,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-14T20:45:35.482+02:00",
+                "name": "22018LRa007_Lib1_90pM-Cell3 (CCS)",
+                "path": "ab2d561a-92bc-438f-a236-40407e27a95c/final.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "ab2d561a-92bc-438f-a236-40407e27a95c"
+            },
+            {
+                "createdAt": "2022-09-14T21:20:10.298+02:00",
+                "description": "Description",
+                "fileSize": 51728654072,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-14T21:20:10.298+02:00",
+                "name": "22018LRa008_Lib1_90pM-Cell4 (CCS)",
+                "path": "bc2c157e-480e-4fa3-835f-3f7c6d8eb345/final.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "bc2c157e-480e-4fa3-835f-3f7c6d8eb345"
+            }
+        ],
+        "updatedAt": "2022-09-14T21:20:10.301+02:00",
+        "version": "0.2.0"
+    },
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02406/datastore.json": {
+        "createdAt": "2022-09-13T20:24:46.996+02:00",
+        "files": [
+            {
+                "createdAt": "2022-09-13T18:08:14.966+02:00",
+                "description": "Description",
+                "fileSize": 24794689608,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-13T18:08:14.966+02:00",
+                "name": "22018LRa004_Lib1_90pM_20220713-Cell2 (CCS)",
+                "path": "361da858-037b-4add-9b9e-edaadfc6a85b/final.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "361da858-037b-4add-9b9e-edaadfc6a85b"
+            },
+            {
+                "createdAt": "2022-09-13T18:38:19.601+02:00",
+                "description": "Description",
+                "fileSize": 26845036165,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-13T18:38:19.601+02:00",
+                "name": "22018LRa005_Lib1_2nd_90pM_20220713-Cell3 (CCS)",
+                "path": "3d90c933-e6a1-4e95-94a0-a34d78fa55ab/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "3d90c933-e6a1-4e95-94a0-a34d78fa55ab"
+            },
+            {
+                "createdAt": "2022-09-13T20:24:46.994+02:00",
+                "description": "Description",
+                "fileSize": 126156653621,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-13T20:24:46.994+02:00",
+                "name": "22018LRa001_Lib1_70pM_20220713-Cell1 (CCS)",
+                "path": "9a755712-6ace-44d6-861f-70722b8d3157/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "9a755712-6ace-44d6-861f-70722b8d3157"
+            }
+        ],
+        "updatedAt": "2022-09-13T20:24:46.996+02:00",
+        "version": "0.2.0"
+    },
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02412/datastore.json": {
+        "createdAt": "2022-09-13T19:11:50.144+02:00",
+        "files": [
+            {
+                "createdAt": "2022-09-13T17:45:49.419+02:00",
+                "description": "Description",
+                "fileSize": 25229137742,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-13T17:45:49.419+02:00",
+                "name": "22018LRa008_Lib1_2nd_90pM-Cell4 (CCS)",
+                "path": "d1bc489c-8d15-4545-8854-48dc2d9435e5/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "d1bc489c-8d15-4545-8854-48dc2d9435e5"
+            },
+            {
+                "createdAt": "2022-09-13T18:20:56.104+02:00",
+                "description": "Description",
+                "fileSize": 25299493565,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-13T18:20:56.104+02:00",
+                "name": "22018LRa003_Lib1_2nd_90pM-Cell3 (CCS)",
+                "path": "3f25886b-6136-45b8-89ee-b34871a549d4/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "3f25886b-6136-45b8-89ee-b34871a549d4"
+            },
+            {
+                "createdAt": "2022-09-13T18:40:57.015+02:00",
+                "description": "Description",
+                "fileSize": 18482431905,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-13T18:40:57.015+02:00",
+                "name": "22018LRa002_Lib1_2nd_90pM-Cell2 (CCS)",
+                "path": "5e49ac7a-3cd0-44c1-b4fd-349f647c5f59/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "5e49ac7a-3cd0-44c1-b4fd-349f647c5f59"
+            },
+            {
+                "createdAt": "2022-09-13T19:11:50.140+02:00",
+                "description": "Description",
+                "fileSize": 28029554497,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-13T19:11:50.140+02:00",
+                "name": "22018LRa001_Lib1_70pM_20220713-Cell1 (CCS)",
+                "path": "b6e98df8-6fa6-4a25-89fa-d29485871c54/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "b6e98df8-6fa6-4a25-89fa-d29485871c54"
+            }
+        ],
+        "updatedAt": "2022-09-13T19:11:50.144+02:00",
+        "version": "0.2.0"
+    },
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02445/datastore.json": {
+        "createdAt": "2022-09-05T19:03:37.607+02:00",
+        "files": [
+            {
+                "createdAt": "2022-09-05T15:12:47.810+02:00",
+                "description": "Description",
+                "fileSize": 104139035118,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-05T15:12:47.810+02:00",
+                "name": "22018LRa008_Lib2_90pM_20220802-Cell4 (CCS)",
+                "path": "1a9a779b-5a24-477c-b929-ded4b993f3fb/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "1a9a779b-5a24-477c-b929-ded4b993f3fb"
+            },
+            {
+                "createdAt": "2022-09-05T16:49:14.217+02:00",
+                "description": "Description",
+                "fileSize": 76946933413,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-05T16:49:14.217+02:00",
+                "name": "22018LRa007_Lib2_90pM_20220802-Cell3 (CCS)",
+                "path": "1eb2d8cf-6b52-466f-a82c-1a2d6c6b217a/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "1eb2d8cf-6b52-466f-a82c-1a2d6c6b217a"
+            },
+            {
+                "createdAt": "2022-09-05T16:55:36.201+02:00",
+                "description": "Description",
+                "fileSize": 6002897460,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-05T16:55:36.201+02:00",
+                "name": "22018LRa006_Lib2_80pM_20220802-Cell2 (CCS)",
+                "path": "2f91b169-aadc-4553-bafe-1c42189b1488/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "2f91b169-aadc-4553-bafe-1c42189b1488"
+            },
+            {
+                "createdAt": "2022-09-05T19:03:37.605+02:00",
+                "description": "Description",
+                "fileSize": 110284463890,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-05T19:03:37.605+02:00",
+                "name": "22018LRa005_Lib2_90pM_20220802-Cell1 (CCS)",
+                "path": "a06ade93-0b2b-4249-8b8d-e20766be598e/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "a06ade93-0b2b-4249-8b8d-e20766be598e"
+            }
+        ],
+        "updatedAt": "2022-09-05T19:03:37.607+02:00",
+        "version": "0.2.0"
+    },
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02493/datastore.json": {
+        "createdAt": "2022-09-05T20:47:20.358+02:00",
+        "files": [
+            {
+                "createdAt": "2022-09-05T14:38:10.789+02:00",
+                "description": "Description",
+                "fileSize": 77245575398,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-05T14:38:10.789+02:00",
+                "name": "22018LRa007_Lib3_90pM_20220824_3rdSMRTCell-Cell4 (CCS)",
+                "path": "70b61af0-13a8-4bad-89b9-b60b25785d5c/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "70b61af0-13a8-4bad-89b9-b60b25785d5c"
+            },
+            {
+                "createdAt": "2022-09-05T17:00:45.517+02:00",
+                "description": "Description",
+                "fileSize": 110500576061,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-05T17:00:45.517+02:00",
+                "name": "22018LRa004_Lib3_90pM_20220824_3rdSMRTCell-Cell3 (CCS)",
+                "path": "d5044dfd-6eab-4dff-b28a-e3c5b0bd3475/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "d5044dfd-6eab-4dff-b28a-e3c5b0bd3475"
+            },
+            {
+                "createdAt": "2022-09-05T19:06:39.267+02:00",
+                "description": "Description",
+                "fileSize": 108392115763,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-05T19:06:39.267+02:00",
+                "name": "22018LRa004_Lib3_90pM_20220824_2ndSMRTCell-Cell2 (CCS)",
+                "path": "ef8dbbd6-b09d-447a-8d61-d1fbcf878284/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "ef8dbbd6-b09d-447a-8d61-d1fbcf878284"
+            },
+            {
+                "createdAt": "2022-09-05T20:47:20.356+02:00",
+                "description": "Description",
+                "fileSize": 124613578540,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-05T20:47:20.356+02:00",
+                "name": "22018LRa001_Lib3_70pM_20220824_3rdSMRTCell-Cell1 (CCS)",
+                "path": "7bdbeb78-4d1a-4d93-b846-522a521bcee1/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "7bdbeb78-4d1a-4d93-b846-522a521bcee1"
+            }
+        ],
+        "updatedAt": "2022-09-05T20:47:20.358+02:00",
+        "version": "0.2.0"
+    },
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02567/datastore.json": {
+        "createdAt": "2022-09-28T18:57:49.819+02:00",
+        "files": [
+            {
+                "createdAt": "2022-09-28T18:13:22.934+02:00",
+                "description": "Description",
+                "fileSize": 112600683194,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-28T18:13:22.934+02:00",
+                "name": "22018LRa003_Lib3_3rd_90pM-Cell2 (CCS)",
+                "path": "04a2faa9-c414-489d-a454-af38d2abe6cd/final.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "04a2faa9-c414-489d-a454-af38d2abe6cd"
+            },
+            {
+                "createdAt": "2022-09-28T18:57:49.817+02:00",
+                "description": "Description",
+                "fileSize": 77268252268,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-09-28T18:57:49.817+02:00",
+                "name": "22018LRa002_Lib3_3rd_70pM-Cell1 (CCS)",
+                "path": "c7a2e646-eae6-410d-bdab-8618132ffac3/with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "c7a2e646-eae6-410d-bdab-8618132ffac3"
+            }
+        ],
+        "updatedAt": "2022-09-28T18:57:49.819+02:00",
+        "version": "0.2.0"
+    },
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02655/34b1b2aa-f207-4b5a-ad9b-949f3d816ac0/datastore.json": {
+        "createdAt": "2022-12-13T19:09:28.837+01:00",
+        "files": [
+            {
+                "createdAt": "2022-12-13T19:09:28.836+01:00",
+                "description": "Description",
+                "fileSize": 124382615137,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2022-12-13T19:09:28.836+01:00",
+                "name": "22018LRa023_Lib1_90pM-Cell1 (CCS)",
+                "path": "with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "34b1b2aa-f207-4b5a-ad9b-949f3d816ac0"
+            }
+        ],
+        "updatedAt": "2022-12-13T19:09:28.837+01:00",
+        "version": "0.2.0"
+    },
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02782/b5667cb5-9920-4081-bf89-030f3d8ebd67/datastore.json": {
+        "createdAt": "2023-02-02T14:44:00.696+01:00",
+        "files": [
+            {
+                "createdAt": "2023-02-02T14:44:00.695+01:00",
+                "description": "Description",
+                "fileSize": 9289624214,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2023-02-02T14:44:00.695+01:00",
+                "name": "22018LRa023_Lib1_90pM_2nd_3rdSMRTCell-Cell1 (CCS)",
+                "path": "with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "b5667cb5-9920-4081-bf89-030f3d8ebd67"
+            }
+        ],
+        "updatedAt": "2023-02-02T14:44:00.696+01:00",
+        "version": "0.2.0"
+    },
+    "/mnt/storage1/projects/research/SCA4_2022/pacbio/raw_data/02782/f3cb9782-6237-4b8d-892c-a5800af6d044/datastore.json": {
+        "createdAt": "2023-02-02T14:33:42.993+01:00",
+        "files": [
+            {
+                "createdAt": "2023-02-02T14:33:42.991+01:00",
+                "description": "Description",
+                "fileSize": 2133772048,
+                "fileTypeId": "PacBio.DataSet.ConsensusReadSet",
+                "modifiedAt": "2023-02-02T14:33:42.991+01:00",
+                "name": "22018LRa023_Lib1_90pM_2nd_3rdSMRTCell-Cell2 (CCS)",
+                "path": "with_5mC.consensusreadset.xml",
+                "sourceId": "export-datasets-0",
+                "uniqueId": "f3cb9782-6237-4b8d-892c-a5800af6d044"
+            }
+        ],
+        "updatedAt": "2023-02-02T14:33:42.993+01:00",
+        "version": "0.2.0"
+    }
+}
